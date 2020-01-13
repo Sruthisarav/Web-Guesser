@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <style>
+        body {
+            background: <%= color %>;
+        }
+    </style>
+  </head>
+  <body>
+    <form>
+        <input type = "text" name = "guess" />
+        <input type = "submit" value = "Guess!" />
+    </form>
+    <p>
+    <%= message %>
+    You have <%= guesses%> left!
+    </p>
+    <p>
+      <%= end_msg %>
+    </p>
+  </body>
+</html>
